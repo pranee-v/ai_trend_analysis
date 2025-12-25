@@ -1,6 +1,58 @@
+# Pulse AI Trend Analysis
 
-Pulse AI Trend Analysis (Simplified)
+This project implements a simplified **Agentic AI pipeline** to process app reviews, extract recurring topics, consolidate similar issues, and generate a **30-day rolling trend report**.  
 
-1. Install requirements: pandas
-2. Run: python main.py
-3. Output will be in output/trend_report.csv
+## Features
+
+- Extracts **topics from reviews** using predefined rules.
+- Consolidates similar topics to avoid duplication.
+- Generates a **30-day rolling trend table**:
+  - **Rows:** Topics
+  - **Columns:** Last 30 days from the latest review date
+  - **Cells:** Daily frequency of each topic
+- Saves output as CSV: `output/trend_report.csv`.
+
+
+## Project Structure
+ai_trend_analysis/
+├── data/
+│ └── reviews.csv # Input review data
+├── extract_topics.py # Topic extraction rules
+├── build_trends.py # Trend table builder
+├── main.py # Full pipeline
+├── output/ # Generated reports
+│ └── trend_report.csv
+├── README.md
+└── .gitignore
+
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/pranee-v/ai_trend_analysis.git
+cd ai_trend_analysis
+
+
+2. Install dependencies:
+
+python -m pip install pandas
+
+
+--How to Run?
+
+python main.py
+
+
+---This will read reviews from data/reviews.csv
+
+---Extract topics for each review
+
+---Build a 30-day rolling trend table
+
+---Save the CSV at output/trend_report.csv
+
+
