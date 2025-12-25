@@ -56,3 +56,8 @@ python main.py
 ---Save the CSV at output/trend_report.csv
 
 
+## Vedio Demonstration
+https://drive.google.com/file/d/13RtD2vy6Eb3VusQOJ1zR8aLLbuWrBsEc/view?usp=drive_link
+
+## Sample Output
+![alt text](image-1.png)
