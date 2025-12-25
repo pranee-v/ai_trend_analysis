@@ -1,4 +1,4 @@
-# Pulse AI Trend Analysis
+## AI Trend Analysis
 
 This project implements a simplified **Agentic AI pipeline** to process app reviews, extract recurring topics, consolidate similar issues, and generate a **30-day rolling trend report**.  
 
@@ -14,6 +14,7 @@ This project implements a simplified **Agentic AI pipeline** to process app revi
 
 
 ## Project Structure
+
 ai_trend_analysis/
 ├── data/
 │ └── reviews.csv # Input review data
@@ -32,12 +33,11 @@ ai_trend_analysis/
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/pranee-v/ai_trend_analysis.git
 cd ai_trend_analysis
 
 
-2. Install dependencies:
+3. Install dependencies:
 
 python -m pip install pandas
 
