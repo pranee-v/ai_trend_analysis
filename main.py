@@ -4,9 +4,7 @@ from datetime import datetime, timedelta
 from extract_topics import extract_topics
 import random
 
-# -------------------------------
-# Input: app store link
-# -------------------------------
+
 app_link = input("https://play.google.com/store/apps/details?id=com.swiggy.delivery")
 
 start_date = datetime(2025, 11, 25)
@@ -15,9 +13,6 @@ num_reviews_per_day = 5
 
 print(f"Generating synthetic reviews for app: {app_link}")
 
-# -------------------------------
-# Generate synthetic reviews
-# -------------------------------
 sample_reviews = [
     "Delivery was late",
     "Food was cold",
@@ -47,9 +42,6 @@ df = pd.DataFrame(reviews)
 df.to_csv("data/reviews.csv", index=False)
 print(f"{len(df)} synthetic reviews saved to data/reviews.csv")
 
-# -------------------------------
-# Process reviews for trend
-# -------------------------------
 df['date'] = pd.to_datetime(df['date'])
 all_dates = pd.date_range(end_date - timedelta(days=29), end_date)
 
@@ -70,9 +62,6 @@ for date in all_dates:
 
 trend_df.columns = [d.strftime('%b %d') for d in trend_df.columns]
 
-# -------------------------------
-# Save trend report
-# -------------------------------
 os.makedirs("output", exist_ok=True)
 output_path = "output/trend_report.csv"
 trend_df.index.name = "Topic"
