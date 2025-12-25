@@ -1,5 +1,4 @@
-Topic,May 04,May 05,May 06,May 07,May 08,May 09,May 10,May 11,May 12,May 13,May 14,May 15,May 16,May 17,May 18,May 19,May 20,May 21,May 22,May 23,May 24,May 25,May 26,May 27,May 28,May 29,May 30,May 31,Jun 01,Jun 02
-Delivery partner rude,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
-Delivery issue,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Food stale,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-App crash,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Topic,Nov 26,Nov 27,Nov 28,Nov 29,Nov 30,Dec 01,Dec 02,Dec 03,Dec 04,Dec 05,Dec 06,Dec 07,Dec 08,Dec 09,Dec 10,Dec 11,Dec 12,Dec 13,Dec 14,Dec 15,Dec 16,Dec 17,Dec 18,Dec 19,Dec 20,Dec 21,Dec 22,Dec 23,Dec 24,Dec 25
+Delivery partner rude,0,1,0,1,0,0,0,1,0,1,0,2,0,1,2,0,0,1,0,0,0,1,0,0,0,1,1,2,0,0
+App crash,1,4,0,0,0,1,1,1,0,0,0,1,1,0,1,1,0,1,0,0,0,1,0,0,1,2,0,0,0,1
+Late delivery,1,0,0,0,1,0,2,1,1,1,0,0,0,1,1,0,1,1,1,2,0,0,1,0,0,0,0,1,1,2
